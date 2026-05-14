@@ -2,3 +2,29 @@ a{
     text-decoration: none;
     color: rgb(93, 151, 21);
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(10, 176, 88);
+    height: 100vh;
+}
+
+
+.carre{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+*{ scroll-behavior: smooth;}
